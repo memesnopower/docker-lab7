@@ -1,9 +1,9 @@
 FROM python:3.6
 
-RUN mkdir -p /C:/Users/chean/lab7/
+RUN mkdir -p /usr/src/app
 
-WORKDIR /C:/Users/chean/lab7/
+WORKDIR /usr/src/app
 
-COPY . /C:/Users/chean/lab7/
+COPY . /usr/src/app
 
 CMD ["python", "sortArray.py"]
