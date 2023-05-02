@@ -6,4 +6,4 @@ WORKDIR /C:/Users/chean/lab7/
 
 COPY . /C:/Users/chean/lab7/
 
-CMD ["python", "main.py"]
+CMD ["python", "sortArr.py"]
